@@ -1,15 +1,13 @@
 import "./App.css";
 import ShoppingPage from "./Components/ShoppingPage";
-import { useState } from "react";
+import ShoppingListProvider from "./Provider/ShoppingListProvider";
 
 function App() {
-  const [lists, setLists] = useState([]);
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <ShoppingPage lists={lists} setLists={setLists} />
-      </header>
+    <div>
+      <ShoppingListProvider>
+        <ShoppingPage />
+      </ShoppingListProvider>
     </div>
   );
 }
