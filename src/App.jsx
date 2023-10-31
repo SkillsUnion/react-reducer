@@ -6,10 +6,8 @@ function App() {
   const [lists, setLists] = useState([]);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <ShoppingPage lists={lists} setLists={setLists} />
-      </header>
+    <div>
+      <ShoppingPage lists={lists} setLists={setLists} />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import ShoppingForm from "./ShoppingForm";
 import ShoppingDisplay from "./ShoppingDisplay";
 
-const ShoppingPage = (props) => {
+const ShoppingPage = () => {
   const [lists, setLists] = useState({
     sampleList: [{ item: "test 1", itemAmount: 5, itemPrice: 5 }],
   });
