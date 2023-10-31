@@ -1,0 +1,93 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.delete {
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+.todoItem {
+  cursor: pointer;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  height: 30vh;
+}
+
+.icon {
+  height: 1.5em;
+}
+
+.item {
+  margin: 10px;
+  padding: 10px;
+  border: 6px double #fff;
+  border-radius: 15px;
+}
+
+.form {
+  height: 10vh;
+  width: 25vw;
+}
+
+.formButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bought {
+  background-color: #1c9c13;
+  text-decoration: line-through;
+}
+
+.notBought {
+  background-color: #ff0000;
+}
