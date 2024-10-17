@@ -1,4 +1,4 @@
-# Rocket Academy Coding Bootcamp: Shoppinglist Reducer
+# Shoppinglist Reducer
 
 ## Available Scripts
 
